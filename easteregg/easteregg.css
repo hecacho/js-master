@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.click_count {
+  font-weight: bolder;
+  font-size: 20px;
+}
+#popcat_img {
+  height: 500px;
+  width: 500px;
+}

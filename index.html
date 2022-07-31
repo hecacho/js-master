@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="en" />
+    <title>S.M. programming! - js practice</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <main>
+    </div>
+    <div id="clock">
+      <h2 id="clock_hm">00:00</h2>
+      <h4 id="clock_s">.00</h4>
+    </div>
+
+      <form id="login-form" class="hidden">
+        <input
+        class="login-form__write_todo"
+          type="text"
+          placeholder="What is your name?"
+          required
+          maxlength="15"
+        />
+        <button class="login-form__login_btn">Log In</button>
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      
+    <form id="todo-form">
+      <input id="todo-form__input" type="text" required placeholder="Write To do" />
+    </form>
+    <ul id="todo_list"></ul>
+
+    <div class="weather">
+      <span id="weather__location"></span>
+      <span>-</span>
+      <span id="weather__weather"></span>
+    </div>
+
+    <div class="music_recommend">
+      <div class="music_recommend__div_row">
+        <i class="fa-solid fa-music"></i>
+        <span>Recommend Music</span>
+        <i class="fa-solid fa-music"></i>
+      </div>
+      <div class="music_recommend__div_row">
+        <span id="music_recommend__artist"></span>
+        <span>-</span>
+        <span id="music_recommend__title"></span>
+      </div>
+    </div>
+    </main>
+
+
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/musicRecommend.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d24f67a579.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+.hidden {
+  display: none;
+}
+
+body,
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+* {
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  position: fixed;
+  top: 25%;
+}
+
+#clock {
+  display: flex;
+  align-items: flex-end;
+}
+#clock_hm {
+  font-size: 100px;
+}
+#clock_s {
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+#login_greeting {
+  display: flex;
+}
+
+.login-form {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login-form__write_todo {
+  color: black;
+}
+.login-form__login_btn {
+  width: 70px;
+  background-color: #222;
+}
+
+#todo-form__input {
+  height: 40px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  margin-top: 50px;
+}
+#todo-form__input::placeholder {
+  color: #ccc;
+}
+#todo_list li {
+  width: 75%;
+  position: relative;
+  margin: 10px;
+}
+#todo_list li > input {
+  position: absolute;
+  right: 0;
+  background-color: #222;
+}
+
+#background_img {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.weather {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.music_recommend {
+  width: 100%;
+  font-size: 18px;
+  position: fixed;
+  bottom: 15px;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
